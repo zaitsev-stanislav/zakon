@@ -1,0 +1,376 @@
+{
+  "enterprises": [
+    {
+      "id": 1,
+      "companyName": "ABC Company",
+      "desc": "This is a description of ABC Company",
+      "leaderName": "John Smith",
+      "years": 2000,
+      "products": [
+        {
+          "name": "Product A",
+          "desc": "This is a description of Product A",
+          "price": 19.99,
+          "img": "https://images.pexels.com/photos/5433356/pexels-photo-5433356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product B",
+          "desc": "This is a description of Product B",
+          "price": 29.99,
+          "img": "https://images.pexels.com/photos/5444645/pexels-photo-5444645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product C",
+          "desc": "This is a description of Product C",
+          "price": 39.99,
+          "img": "https://images.pexels.com/photos/5443984/pexels-photo-5443984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "companyName": "XYZ Company",
+      "desc": "This is a description of XYZ Company",
+      "leaderName": "Jane Doe",
+      "years": 2005,
+      "products": [
+        {
+          "name": "Product D",
+          "desc": "This is a description of Product D",
+          "price": 49.99,
+          "img": "https://images.pexels.com/photos/5445605/pexels-photo-5445605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product E",
+          "desc": "This is a description of Product E",
+          "price": 59.99,
+          "img": "https://images.pexels.com/photos/5444027/pexels-photo-5444027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product F",
+          "desc": "This is a description of Product F",
+          "price": 69.99,
+          "img": "https://images.pexels.com/photos/5443821/pexels-photo-5443821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "companyName": "123 Company",
+      "desc": "This is a description of 123 Company",
+      "leaderName": "Bob Johnson",
+      "years": 1999,
+      "products": [
+        {
+          "name": "Product G",
+          "desc": "This is a description of Product G",
+          "price": 79.99,
+          "img": "https://images.pexels.com/photos/5445921/pexels-photo-5445921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product H",
+          "desc": "This is a description of Product H",
+          "price": 89.99,
+          "img": "https://images.pexels.com/photos/5444428/pexels-photo-5444428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product I",
+          "desc": "This is a description of Product I",
+          "price": 99.99,
+          "img": "https://images.pexels.com/photos/5439931/pexels-photo-5439931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "companyName": "456 Company",
+      "desc": "This is a description of 456 Company",
+      "leaderName": "Sarah Lee",
+      "years": 1990,
+      "products": [
+        {
+          "name": "Product J",
+          "desc": "This is a description of Product J",
+          "price": 109.99,
+          "img": "https://images.pexels.com/photos/5439961/pexels-photo-5439961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product K",
+          "desc": "This is a description of Product K",
+          "price": 119.99,
+          "img": "https://images.pexels.com/photos/5444071/pexels-photo-5444071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product L",
+          "desc": "This is a description of Product L",
+          "price": 129.99,
+          "img": "https://images.pexels.com/photos/5446118/pexels-photo-5446118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "companyName": "789 Company",
+      "desc": "This is a description of 789 Company",
+      "leaderName": "David Brown",
+      "years": 1980,
+      "products": [
+        {
+          "name": "Product M",
+          "desc": "This is a description of Product M",
+          "price": 139.99,
+          "img": "https://images.pexels.com/photos/5439745/pexels-photo-5439745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product N",
+          "desc": "This is a description of Product N",
+          "price": 149.99,
+          "img": "https://images.pexels.com/photos/5439916/pexels-photo-5439916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product O",
+          "desc": "This is a description of Product O",
+          "price": 159.99,
+          "img": "https://images.pexels.com/photos/5444729/pexels-photo-5444729.jpeg?auto=compress&cs=tinysrgb&2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "companyName": "XYZ Corp",
+      "desc": "This is a description of XYZ Corp",
+      "leaderName": "Emily Green",
+      "years": 2000,
+      "products": [
+        {
+          "name": "Product P",
+          "desc": "This is a description of Product P",
+          "price": 169.99,
+          "img": "https://images.pexels.com/photos/5445975/pexels-photo-5445975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product Q",
+          "desc": "This is a description of Product Q",
+          "price": 179.99,
+          "img": "https://images.pexels.com/photos/5446103/pexels-photo-5446103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product R",
+          "desc": "This is a description of Product R",
+          "price": 189.99,
+          "img": "https://images.pexels.com/photos/5444234/pexels-photo-5444234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "companyName": "ABC Corp",
+      "desc": "This is a description of ABC Corp",
+      "leaderName": "Mike Johnson",
+      "years": 2020,
+      "products": [
+        {
+          "name": "Product S",
+          "desc": "This is a description of Product S",
+          "price": 199.99,
+          "img": "https://images.pexels.com/photos/5444185/pexels-photo-5444185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product T",
+          "desc": "This is a description of Product T",
+          "price": 209.99,
+          "img": "https://images.pexels.com/photos/5439877/pexels-photo-5439877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product U",
+          "desc": "This is a description of Product U",
+          "price": 219.99,
+          "img": "https://images.pexels.com/photos/5439837/pexels-photo-5439837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "companyName": "XYZ Industries",
+      "desc": "This is a description of XYZ Industries",
+      "leaderName": "Susan Davis",
+      "years": 2015,
+      "products": [
+        {
+          "name": "Product V",
+          "desc": "This is a description of Product V",
+          "price": 229.99,
+          "img": "https://images.pexels.com/photos/5444255/pexels-photo-5444255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product W",
+          "desc": "This is a description of Product W",
+          "price": 239.99,
+          "img": "https://images.pexels.com/photos/5444054/pexels-photo-5444054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product X",
+          "desc": "This is a description of Product X",
+          "price": 249.99,
+          "img": "https://images.pexels.com/photos/5444406/pexels-photo-5444406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "companyName": "ABC Enterprises",
+      "desc": "This is a description of ABC Enterprises",
+      "leaderName": "Tom Lee",
+      "years": 2015,
+      "products": [
+        {
+          "name": "Product Y",
+          "desc": "This is a description of Product Y",
+          "price": 259.99,
+          "img": "https://images.pexels.com/photos/5444386/pexels-photo-5444386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product Z",
+          "desc": "This is a description of Product Z",
+          "price": 269.99,
+          "img": "https://images.pexels.com/photos/5444638/pexels-photo-5444638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product AA",
+          "desc": "This is a description of Product AA",
+          "price": 279.99,
+          "img": "https://images.pexels.com/photos/5444372/pexels-photo-5444372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "companyName": "XYZ Enterprises",
+      "desc": "This is a description of XYZ Enterprises",
+      "leaderName": "Karen Wilson",
+      "years": 2001,
+      "products": [
+        {
+          "name": "Product BB",
+          "desc": "This is a description of Product BB",
+          "price": 289.99,
+          "img": "https://images.pexels.com/photos/5444616/pexels-photo-5444616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product CC",
+          "desc": "This is a description of Product CC",
+          "price": 299.99,
+          "img": "https://images.pexels.com/photos/5439968/pexels-photo-5439968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        },
+        {
+          "name": "Product DD",
+          "desc": "This is a description of Product DD",
+          "price": 309.99,
+          "img": "https://images.pexels.com/photos/5444282/pexels-photo-5444282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        }
+      ]
+    },
+    {
+      "companyName": "ТехноСтрой",
+      "desc": "Надежная строительная компания на казахстанском рынке строительства, ремонта, демонтажа, реконструкции и возведении новых объектов",
+      "leaderName": "Sara",
+      "years": 2007,
+      "products": [
+        {
+          "name": "product-name",
+          "desc": "Как принято считать, некоторые особенности внутренней политики представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть объявлены нарушающими общечеловеческие нормы этики и морали.",
+          "price": 1000,
+          "img": "./images/1.jpg"
+        },
+        {
+          "name": "product-name22",
+          "desc": "Как принято считать, некоторые особенности внутренней политики представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть объявлены нарушающими общечеловеческие нормы этики и морали.",
+          "price": 2000,
+          "img": "./images/1.jpg"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "companyName": "companyName",
+      "desc": "company desc",
+      "leaderName": "Sara",
+      "years": 2006,
+      "products": [
+        {
+          "name": "product-name",
+          "desc": "Как принято считать, некоторые особенности внутренней политики представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть объявлены нарушающими общечеловеческие нормы этики и морали.",
+          "price": 1000,
+          "img": "./images/1.jpg"
+        },
+        {
+          "name": "product-name22",
+          "desc": "Как принято считать, некоторые особенности внутренней политики представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть объявлены нарушающими общечеловеческие нормы этики и морали.",
+          "price": 2000,
+          "img": "./images/1.jpg"
+        },
+        {
+          "name": "Станислав тестирую не звонить",
+          "desc": "описание",
+          "price": 0,
+          "img": "https://static.tildacdn.com/tild3630-3833-4466-b464-313135373130/___1.png"
+        },
+        {
+          "name": "Стани312312",
+          "desc": "описание 321321",
+          "price": "2131",
+          "img": "https://static.tildacdn.com/tild3630-3833-4466-b464-313135373130/___1.png"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "companyName": "Пример Камран",
+      "desc": "Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление напрямую зависит от кластеризации усилий. В своём стремлении повысить качество жизни, они забывают, что экономическая повестка сегодняшнего дня однозначно фиксирует необходимость стандартных подходов.",
+      "leaderName": "Камран",
+      "years": "2010",
+      "products": [
+        {
+          "name": "карточка 1",
+          "desc": "",
+          "price": 0,
+          "img": "./images/none.jpg"
+        },
+        {
+          "name": "карточка 1",
+          "desc": "Описание 1",
+          "price": "2101",
+          "img": "https://images.unsplash.com/photo-1678657184870-6efc15adaf9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "name": "карточка 2",
+          "desc": "Описание 2",
+          "price": "1510",
+          "img": "https://images.unsplash.com/photo-1678662543244-51054fbe49e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "name": "карточка 3",
+          "desc": "Описание 3",
+          "price": "2536",
+          "img": "https://images.unsplash.com/photo-1678662542431-935d32c2aae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "companyName": "ЗАКОН",
+      "desc": "ЗАКОН есть закон",
+      "leaderName": "путин",
+      "years": "2010",
+      "products": [
+        {
+          "name": "Стасян тест",
+          "desc": "описание",
+          "price": "12321",
+          "img": "https://static.tildacdn.com/tild3466-3565-4434-a235-636563653961/photo.png"
+        }
+      ],
+      "id": 14
+    }
+  ]
+}
