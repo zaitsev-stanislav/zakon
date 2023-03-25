@@ -1,16 +1,15 @@
-import React, {useState} from "react";
+import React, {FormEvent, useState} from "react";
 import {IEnterprises} from "../models";
 import axios from "axios";
 
 interface AddEnterpriseProps {
-    state: boolean,
-    setState: () => void,
-    setId : (e:number) => void
+    onSubmit: (data: IEnterprises) => Promise<void>
+    step: number
 }
 
 
 export function AddEnterprise(props: AddEnterpriseProps) {
-    const visible = !props.state ? "form block" : "form block disabled";
+    const visible = props.step === 0 ? "form block" : "form block disabled";
 
     const [formValues, setFormValues] = useState<IEnterprises>({
         companyName: '',
@@ -33,20 +32,10 @@ export function AddEnterprise(props: AddEnterpriseProps) {
         }
     }
 
-    async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) =>{
         event.preventDefault();
-        const responce = await axios.post<IEnterprises>("http://localhost:3004/enterprises", formValues);
-
-        // Проверяю точно ли id число
-        if (responce.data.id !== undefined){
-            props.setId(responce.data.id) // получаю id новой записи, чтобы потом мог в нее доабвить товары
-        }
-        props.setState(); // активирую следюущиую форму товара
-        if (responce.status < 299){
-            alert("Данные успешно добавлены. Теперь вы можете добавить ваши товары")
-        }
-    }
-
+        props.onSubmit(formValues)
+    };
 
     return (
         <>
@@ -62,7 +51,7 @@ export function AddEnterprise(props: AddEnterpriseProps) {
                 <i className="form__above">С какого года вы начали работу?</i>
                 <input required onChange={handleInputChange} className="form__input" type="number" placeholder="2000" name="years"/>
                 <i className="form__above">Продукцию вы сможете указать на следующем этапе</i>
-                {!props.state
+                {props.step === 0
                     ? <button className="btn form__btn">Отправить</button>
                     : <button disabled className="btn form__btn">Отправить</button>}
             </form>

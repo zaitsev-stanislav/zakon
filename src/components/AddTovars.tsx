@@ -3,8 +3,8 @@ import {IEnterprises, IEnterprisesProducts} from "../models";
 import axios from "axios";
 
 interface AddTovarsProps {
-    state: boolean
-    id: number
+    step: number,
+    onSubmit: (data: IEnterprisesProducts) => Promise<void>
 }
 
 export function AddTovars(props: AddTovarsProps) {
@@ -33,22 +33,11 @@ export function AddTovars(props: AddTovarsProps) {
     // функция для добавления данных
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
-
-        // получаю по Id данные определенной компании
-        const getData = await axios.get<IEnterprises>(`http://localhost:3004/enterprises/${props.id}`);
-        // делаю переменную, куда закидываю прошлые данные и добавляю новые
-        const products = {products:[...getData.data.products, {...formValues}]};
-        // обновляю инфу в БД о компании,
-        const responce = await axios.patch<IEnterprises>(`http://localhost:3004/enterprises/${props.id}`, products);
-        console.log(responce);
-        if (responce.statusText === "OK"){
-            alert("Данные успешно добавлены")
-        }
-
+        props.onSubmit(formValues)
     }
 
 
-    const visible = props.state ? "form block" : "form block disabled";
+    const visible = props.step === 1 ? "form block" : "form block disabled";
     return (
         <>
             <form onSubmit={handleSubmit} className={visible}>
@@ -65,7 +54,7 @@ export function AddTovars(props: AddTovarsProps) {
 
                 <i className="form__above">Ссылка на вашу фотографию</i>
                 <input onChange={handleInputChange} className="form__input" type="text" placeholder="https://images.pexels.com/photos/5433356/pexels-photo-5433356.jpeg" name="img"/>
-                {props.state
+                {props.step === 1
                     ? <button type="submit" className="btn form__btn">Добавить товар</button>
                     : <button type="submit" disabled className="btn form__btn">Добавить товар</button>}
             </form>
